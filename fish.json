@@ -1,34 +1,34 @@
 [
     {
-        "id": "1",
+        "id": 1,
         "name": "Щука",
         "latin_name": "Esox lucius",
         "is_salt_water_fish": false,
         "sub_type_count": 5
     },
     {
-        "id": "2",
+        "id": 2,
         "name": "Тунец",
         "latin_name": "Thunnus thynnus",
         "is_salt_water_fish": true,
         "sub_type_count": 8
     },
     {
-        "id": "3",
+        "id": 3,
         "name": "Карп",
         "latin_name": "Cyprinus carpio",
         "is_salt_water_fish": false,
         "sub_type_count": 6
     },
     {
-        "id": "4",
+        "id": 4,
         "name": "Скумбрия",
         "latin_name": "Scomber scombrus",
         "is_salt_water_fish": true,
         "sub_type_count": 4
     },
     {
-        "id": "5",
+        "id": 5,
         "name": "Сом",
         "latin_name": "Silurus glanis",
         "is_salt_water_fish": false,
