@@ -48,9 +48,8 @@ while True:
             print("Запись не найдена.")
 
     # Обработка действия 3: Добавление новой записи.
-    elif numb == "3":   
-        for fish in data:
-            id = int(fish['id'] )+1          
+    elif numb == "3":
+        id = max(fish['id'] for fish in data) + 1 if data else 1 # Находим максимально существующий id
         name = input("Введите общее название рыбы: ")  
         latin_name = input("Введите латинское название рыбы: ")  
         is_salt_water_fish = input("Введите, является ли рыба пресноводной (да/нет): ")  
