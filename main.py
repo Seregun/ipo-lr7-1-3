@@ -49,8 +49,7 @@ while True:
 
     # Обработка действия 3: Добавление новой записи.
     elif numb == "3":   
-        for fish in data:
-            id = int(fish['id'] )+1         
+        id = int(input("Введите номер рыбы: "))          
         name = input("Введите общее название рыбы: ")  
         latin_name = input("Введите латинское название рыбы: ")  
         is_salt_water_fish = input("Введите, является ли рыба пресноводной (да/нет): ")  
